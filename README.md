@@ -9,6 +9,8 @@ nginx
  
 sudo nano /etc/nginx/sites-available/costco
 
+
+```
 server {
      listen 80;
      server_name costco.bbnode.info;
@@ -29,6 +31,7 @@ server {
     }
 }
 
+```
 sudo ln -s /etc/nginx/sites-available/costco
 
 sudo /etc/init.d/nginx restart
